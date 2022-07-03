@@ -1,0 +1,21 @@
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: dev-bgd
+  namespace: openshift-gitops
+spec:
+  project: default
+  source:
+    path: app/overlays/dev/
+    repoURL: https://github.com/justone0127/poc-bgd
+    targetRevision: main
+  destination:
+    namespace: dev-bgd
+    server: https://kubernetes.default.svc
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
+    automated:
+      prune: true
+      selfHeal: true
