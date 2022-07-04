@@ -2,5 +2,5 @@
   path: /spec/template/spec/containers/0/env/0/value
   value: blue
 - op: replace
-  path: /spec/template/spec/containers/1/env/1/value
+  path: /spec/template/spec/containers/0/env/0/version
   value: 1.0
