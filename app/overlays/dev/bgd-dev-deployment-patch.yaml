@@ -3,5 +3,5 @@
   value: blue
 - op: replace
   path: /metadata/annotaions
-  value: |
-    app.kubernetes.io/version: 1.0
+  value: 
+    app-version: 1.0
