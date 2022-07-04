@@ -3,8 +3,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   creationTimestamp: null
-  annotaions: 
-    app-version: "1.0"
   labels:
     app: bgd
   name: bgd
