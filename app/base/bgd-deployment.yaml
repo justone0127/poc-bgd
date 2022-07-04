@@ -25,6 +25,6 @@ spec:
         - name: COLOR
           value: "blue"
         - name: VERSION
-          value: '1.0'
+          value: "1.0"
         resources: {}
 ---
