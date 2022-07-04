@@ -6,6 +6,8 @@ metadata:
   labels:
     app: bgd
   name: bgd
+  annotaions:
+    version : 1.0
 spec:
   replicas: 1
   selector:
