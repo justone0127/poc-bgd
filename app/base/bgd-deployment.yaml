@@ -15,7 +15,7 @@ spec:
   template:
     metadata:
       annotaions:
-        app.kubernetes.io/version: "1.0"
+        app.kubernetes.io/version: 1.0
       creationTimestamp: null
       labels:
         app: bgd
