@@ -5,7 +5,7 @@ metadata:
   creationTimestamp: null
   labels:
     app: bgd
-  name: bgd-01
+  name: bgd
 spec:
   replicas: 1
   selector:
