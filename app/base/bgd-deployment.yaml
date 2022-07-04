@@ -24,5 +24,7 @@ spec:
         env:
         - name: COLOR
           value: "blue"
+         - name: Version
+           value: '1.0'
         resources: {}
 ---
