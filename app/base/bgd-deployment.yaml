@@ -14,6 +14,7 @@ spec:
   strategy: {}
   template:
     metadata:
+      annotaions: "1.0"
       creationTimestamp: null
       labels:
         app: bgd
