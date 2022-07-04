@@ -2,5 +2,6 @@
   path: /spec/template/spec/containers/0/env/0/value
   value: blue
 - op: replace
-  path: /spec/template/spec/containers/0/env/1/value
-  value: 1.0
+  path: /metadata/annotations
+  value: |
+    app.kubernetes.io/version: 1.0
