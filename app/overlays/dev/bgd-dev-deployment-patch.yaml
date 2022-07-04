@@ -2,5 +2,5 @@
   path: /spec/template/spec/containers/0/env/0/value
   value: blue
 - op: replace
-  path: /spec/template/metadata/annotaions/0/value
+  path: /spec/template/metadata/annotaions/value
   value: 1.0
