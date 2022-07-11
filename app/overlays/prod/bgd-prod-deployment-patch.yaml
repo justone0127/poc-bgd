@@ -3,4 +3,4 @@
   value: blue
 - op: replace
   path: /spec/template/spec/containers/0/image
-  value: ocp-registry-quay-quay.apps.cluster-c858.sandbox448.opentlc.com/admin/bgd:dev
+  value: ocp-registry-quay-quay.apps.cluster-18cd.sandbox567.opentlc.com/admin/bgd:dev
