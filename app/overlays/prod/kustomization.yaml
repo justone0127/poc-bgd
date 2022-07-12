@@ -10,4 +10,4 @@ patchesJson6902:
       group: apps
       kind: Deployment
       name: bgd
-    path: prod-dev-deployment-patch.yaml
+    path: bgd-prod-deployment-patch.yaml
