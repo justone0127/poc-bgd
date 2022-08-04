@@ -19,7 +19,7 @@ spec:
         app: bgd
     spec:
       containers:
-      - image: ocp-registry-quay-quay.apps.cluster-c858.sandbox448.opentlc.com/admin/bgd:dev
+      - image: ocp-registry-quay-quay.apps.ocp4.sandbox526.opentlc.com/admin/bgd:dev
         name: bgd
         env:
         - name: COLOR
